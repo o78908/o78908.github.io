@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on test123</title>
+    <link>//localhost:1313/blog/</link>
+    <description>Recent content in Blog Posts on test123</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2024 06:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data_Analytics</title>
+      <link>//localhost:1313/blog/data_analytic/</link>
+      <pubDate>Sun, 16 Jun 2024 06:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/data_analytic/</guid>
+      <description>巨量資料分析 第一段 pnorm() 算常態分布的機率 雖說bigData 但我們通常都只有partial data&#xA;autoML 套件 取代 data analyst</description>
+    </item>
+    <item>
+      <title>pdf_file</title>
+      <link>//localhost:1313/blog/pdf_file/</link>
+      <pubDate>Sat, 15 Jun 2024 06:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/pdf_file/</guid>
+      <description>20240617 for 曹老師 測試pdf 123123123123&#xA;This browser does not support PDFs.</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>//localhost:1313/blog/post-1/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/post-1/</guid>
+      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>//localhost:1313/blog/post-2/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/post-2/</guid>
+      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>//localhost:1313/blog/post-3/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/post-3/</guid>
+      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>//localhost:1313/blog/post-4/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/post-4/</guid>
+      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+    </item>
+  </channel>
+</rss>
