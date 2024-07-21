@@ -1,249 +1,2625 @@
-<!doctype html><html itemscope lang=en-us itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><meta name=theme-name content="hugoplate"><link rel="shortcut icon" href=/images/favicon_hueb84ecec72665a83aae8c940dfe71474_1906_96x0_resize_lanczos_3.png type=image/x-icon><link rel=icon href=/images/favicon_hueb84ecec72665a83aae8c940dfe71474_1906_96x0_resize_lanczos_3.png type=image/x-icon><link rel=icon type=image/png sizes=48x48 href=/images/favicon_hueb84ecec72665a83aae8c940dfe71474_1906_48x0_resize_lanczos_3.png><link rel=icon type=image/png sizes=96x96 href=/images/favicon_hueb84ecec72665a83aae8c940dfe71474_1906_96x0_resize_lanczos_3.png><link rel=apple-touch-icon sizes=144x144 href=/images/favicon_hueb84ecec72665a83aae8c940dfe71474_1906_144x0_resize_lanczos_3.png><link rel=manifest href=/manifest.webmanifest><meta name=msapplication-TileColor content="#ddd"><meta name=theme-color content="#ffffff"><base href=https://o78908.github.io/blog/data_analytic/><title>data_Analytics test content for jody tsaodata_Analytics test content for jody tsao</title>
-<meta name=keywords content="Boilerplate,Hugo"><meta name=description content="123"><meta name=author content="zeon.studio"><meta property="og:title" content="data_Analytics test content for jody tsaodata_Analytics test content for jody tsao"><meta property="og:description" content="123"><meta property="og:type" content="website"><meta property="og:url" content="https://o78908.github.io/blog/data_analytic/"><meta name=twitter:title content="data_Analytics test content for jody tsaodata_Analytics test content for jody tsao"><meta name=twitter:description content="123"><script>let indexURL="https://o78908.github.io/searchindex.json",includeSectionsInSearch=["blog"],search_no_results="No results for",search_initial_message="Type something to search.."</script><meta http-equiv=x-dns-prefetch-control content="on"><link rel=preconnect href=https://use.fontawesome.com crossorigin><link rel=preconnect href=//cdnjs.cloudflare.com><link rel=preconnect href=//www.googletagmanager.com><link rel=preconnect href=//www.google-analytics.com><link rel=dns-prefetch href=https://use.fontawesome.com><link rel=dns-prefetch href=//ajax.googleapis.com><link rel=dns-prefetch href=//cdnjs.cloudflare.com><link rel=dns-prefetch href=//www.googletagmanager.com><link rel=dns-prefetch href=//www.google-analytics.com><link rel=dns-prefetch href=//fonts.googleapis.com><link rel=dns-prefetch href=//connect.facebook.net><link rel=dns-prefetch href=//platform.linkedin.com><link rel=dns-prefetch href=//platform.twitter.com><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Signika:wght@500;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script><link href="/css/style.min.301e64f0cf7f2064f3b082ab1c2d8638096d97bbbe0f13b5a6d984dd1e9b331a.css" integrity="sha256-MB5k8M9/IGTzsIKrHC2GOAltl7u+DxO1ptmE3R6bMxo=" rel=stylesheet><link defer async rel=stylesheet href="/css/style-lazy.min.5d85e889fd5f5b28f9387aeade847fcb0a66d76a99a985ab4cdae3d37cf21557.css" integrity="sha256-XYXoif1fWyj5OHrq3oR/ywpm12qZqYWrTNrj03zyFVc=" media=print onload='this.media="all",this.onload=null'></head><body><div id=announcement class="announcement announcement-hide">You must replace the <strong>baseURL</strong> in <strong>hugo.toml</strong> file when deploying, you can manage this announcement from the <strong>params.toml</strong> file.
-<button id=announcement-button class=announcement-button>
-&#215;</button></div><style>.announcement{position:relative;z-index:999;padding:1rem;padding-right:2.8rem;background-color:#fff;box-shadow:1px 0 10px 7px rgba(154,154,154,.11);font-size:1.1rem}.announcement-button{cursor:pointer;padding:0 .5rem;border:0;font-size:1.3rem;position:absolute;top:50%;right:1rem;transform:translateY(-50%);border:1px solid;border-radius:50%;height:1.1em;width:1.1em;display:flex;justify-content:center;align-items:center}.announcement-hide{display:none}.dark .announcement{background-color:#222}</style><header class="header sticky top-0 z-30"><nav class="navbar container"><div class=order-0><a class="navbar-brand block" href=/><img fetchpriority=high decoding=async class="img logo-light" width=160 height=32 src=/images/logo_hud3822dc52499c854acb9b180fed4f736_3648_320x0_resize_q80_h2_lanczos_3.webp alt=Hugoplate onerror='this.onerror=null,this.src="/images/logo_hud3822dc52499c854acb9b180fed4f736_3648_320x0_resize_lanczos_3.png"'>
-<img fetchpriority=high decoding=async class="img logo-dark" width=160 height=32 src=/images/logo-darkmode_hu95dd250582672ebe0c063cf60eed448f_3090_320x0_resize_q80_h2_lanczos_3.webp alt=Hugoplate onerror='this.onerror=null,this.src="/images/logo-darkmode_hu95dd250582672ebe0c063cf60eed448f_3090_320x0_resize_lanczos_3.png"'></a></div><input id=nav-toggle type=checkbox class=hidden>
-<label for=nav-toggle class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"><svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20"><title>Menu Open</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0V0z"/></svg><svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20"><title>Menu Close</title><polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)"/></svg></label><ul id=nav-menu class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8"><li class=nav-item><a class=nav-link href=/>Home</a></li><li class=nav-item><a class=nav-link href=/about/>About</a></li><li class=nav-item><a class=nav-link href=/elements/>Elements</a></li><li class="nav-item nav-dropdown group relative"><span class="nav-link
-inline-flex items-center">Pages<svg class="h-4 w-4 fill-current" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg></span><ul class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100"><li class=nav-dropdown-item><a class=nav-dropdown-link href=/404.html>404 Page</a></li><li class=nav-dropdown-item><a class=nav-dropdown-link href=/authors/>Authors</a></li><li class=nav-dropdown-item><a class=nav-dropdown-link href=/blog/>Blog</a></li><li class=nav-dropdown-item><a class=nav-dropdown-link href=/categories/>Categories</a></li><li class=nav-dropdown-item><a class=nav-dropdown-link href=/contact/>Contact</a></li></ul></li><li class="mt-4 inline-block lg:hidden"><a class="btn btn-outline-primary btn-sm" href=/contact>get a quote</a></li></ul><div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0"><button aria-label=search class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary" data-target=search-modal>
-<i class="fa-solid fa-search"></i></button><div class="theme-switcher mr-5"><input id=theme-switcher data-theme-switcher type=checkbox>
-<label for=theme-switcher><span class=sr-only>theme switcher</span>
-<span><svg class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0" viewBox="0 0 56 56" fill="#fff" height="16" width="16"><path d="M30 4.6c0-1-.9-2-2-2a2 2 0 00-2 2v5c0 1 .9 2 2 2s2-1 2-2zm9.6 9a2 2 0 000 2.8c.8.8 2 .8 2.9.0L46 13a2 2 0 000-2.9 2 2 0 00-3 0zm-26 2.8c.7.8 2 .8 2.8.0.8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9.0-.7.8-.7 2.1.0 3zM28 16A12 12 0 0016 28a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0028 16zm23.3 14c1.1.0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 00-2 2c0 1.1 1 2 2 2zM4.7 26a2 2 0 00-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2zm37.8 13.6a2 2 0 00-3 0 2 2 0 000 2.9l3.6 3.5a2 2 0 002.9.0c.8-.8.8-2.1.0-3zM10 43.1a2 2 0 000 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1.0-2.9s-2-.8-2.9.0zm20 3.4c0-1.1-.9-2-2-2a2 2 0 00-2 2v4.9c0 1 .9 2 2 2s2-1 2-2z"/></svg><svg class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100" viewBox="0 0 24 24" fill="none" height="16" width="16"><path fill="#000" fill-rule="evenodd" clip-rule="evenodd" d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4.0 008.7 1.8c1-.3 2 .5 1.5 1.5v.1A10.3 10.3.0 0112.4 22 10.3 10.3.0 013.2 6.7c1-2 2.9-3.5 4.9-4.4z"/></svg></span></label></div><script>var themeSwitch,darkMode=!1;window.matchMedia("(prefers-color-scheme: dark)").matches&&(darkMode=!0),localStorage.getItem("theme")==="dark"?darkMode=!0:localStorage.getItem("theme")==="light"&&(darkMode=!1),darkMode&&document.documentElement.classList.toggle("dark"),themeSwitch=document.querySelectorAll("[data-theme-switcher]"),document.addEventListener("DOMContentLoaded",()=>{[].forEach.call(themeSwitch,function(e){e.checked=!!darkMode,e.addEventListener("click",()=>{document.documentElement.classList.toggle("dark"),localStorage.setItem("theme",document.documentElement.classList.contains("dark")?"dark":"light")})})})</script><a href=/contact class="btn btn-outline-primary btn-sm hidden lg:inline-block">get a quote</a></div></nav></header><div class=search-modal aria-hidden=true style=--color-primary:#121212><div data-target=close-search-modal class=search-modal-overlay></div><div class=search-wrapper data-image=true data-description=true data-tags=true data-categories=true><div class=search-wrapper-header><label for=search-modal-input style=margin-top:-1px><span class=sr-only>search icon</span>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="18" width="18" class="search-icon" data-type="search"><path fill="currentcolor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8.0 45.3s-32.8 12.5-45.3.0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9.0 208S93.1.0 208 0 416 93.1 416 208zM208 352a144 144 0 100-288 144 144 0 100 288z"/></svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="18" width="18" class="search-reset" data-type="reset"><path fill="currentcolor" d="M256 512A256 256 0 10256 0a256 256 0 100 512zM175 175c9.4-9.4 24.6-9.4 33.9.0l47 47 47-47c9.4-9.4 24.6-9.4 33.9.0s9.4 24.6.0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6.0 33.9s-24.6 9.4-33.9.0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9.0s-9.4-24.6.0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6.0-33.9z"/></svg>
-</label><input id=search-modal-input type=text data-search-input autocomplete=off aria-label=Search placeholder="Search Post..."></div><div class=search-wrapper-body><div class=search-result data-search-result></div><span class=search-result-empty>Type something to search..</span></div><div class=search-wrapper-footer><span><kbd><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentcolor" viewBox="0 0 16 16"><path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 011.506.0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z"/></svg>
-</kbd><kbd><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentcolor" style="margin-top:1px" viewBox="0 0 16 16"><path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 001.506.0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 00-.753 1.659z"/></svg>
-</kbd>to navigate
-</span><span><kbd><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentcolor" style="display:inline-block" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14.5 1.5a.5.5.0 01.5.5v4.8a2.5 2.5.0 01-2.5 2.5H2.707l3.347 3.346a.5.5.0 01-.708.708l-4.2-4.2a.5.5.0 010-.708l4-4a.5.5.0 11.708.708L2.707 8.3H12.5A1.5 1.5.0 0014 6.8V2a.5.5.0 01.5-.5z"/></svg>
-</kbd>to select
-</span><span class=search-result-info></span>
-<span data-target=close-search-modal><kbd>ESC</kbd> to close</span></div></div></div><main><section class="section pt-7"><div class=container><div class="row justify-center"><article class=lg:col-10><div class=mb-10></div><h1 class="h2 mb-4">data_Analytics</h1><ul class=mb-4><li class="mr-4 inline-block"><a href=/authors/%E5%A7%9A%E6%85%95%E6%9D%B1/><i class="fa-regular fa-circle-user mr-2"></i>姚慕東</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-2"></i>
-<a href=/categories/application/>Application
-,
-</a><a href=/categories/dataanalytics/>Data analytics</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-clock mr-2"></i>
-June 16, 2024</li></ul><div class="content mb-10"><details open class="table-of-content blog"><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#第一段>第一段</a></li><li><a href=#第二段>第二段</a></li></ol></nav></details><h1 id=巨量資料分析>巨量資料分析</h1><h2 id=第一段>第一段</h2><p>pnorm() 算常態分布的機率
-雖說bigData 但我們通常都只有partial data</p><p>autoML 套件 取代 data analyst</p><p>data:</p><ol><li>singal: patterns insight</li><li>noise</li></ol><p>AI崛起原因</p><ol><li>Advanced of learning algorithms 演算法的進步</li><li>exponential growth of data(Big data)</li><li>cheaper computation</li></ol><p>deep learning 向下走
-原因:不太能推論出因果關係</p><p>smart apps:會蒐集使用者資料 回傳server 調整模型 提供更好的服務</p><hr><h2 id=第二段>第二段</h2><p>big data 從哪來?</p><ol><li>traditional data(tabular data) :類似關聯式資料庫內的資料</li></ol><p><img src=https://i.imgur.com/oTQyaTu.png></p><p>(1) continuous data:連續型資料 e.g.收入
-(2) categorical data:間段型資料 e.g.男女</p><ol start=2><li>image data: 圖資料</li><li>voice data:</li><li>text data</li><li>network data: 比較大的graph
+<!doctype html>
+<html
+  itemscope
+  class=""
+  lang="en-us"
+  itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8" />
+
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+
+<meta name="theme-name" content="hugoplate" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_96x0_resize_lanczos_3.png" type="image/x-icon">
+<link rel="icon" href="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_96x0_resize_lanczos_3.png" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="48x48" href="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_48x0_resize_lanczos_3.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_96x0_resize_lanczos_3.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_144x0_resize_lanczos_3.png">
+
+
+
+
+
+
+
+
+<link rel="manifest" href="/manifest.webmanifest" />
+<meta
+  name="msapplication-TileColor"
+  content="#ddd" />
+<meta
+  name="theme-color"
+  content="#ffffff" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<title>data_Analytics test content for jody tsaodata_Analytics test content for jody tsao</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta
+    name="keywords"
+    content="Boilerplate, Hugo" />
+
+
+
+
+<meta
+  name="description"
+  content="123" />
+
+
+
+  <meta name="author" content="zeon.studio" />
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+      
+        <meta property="og:image" content="http://localhost:1313/images/article_picture/dataAnalytics.jpg" />
+        <meta name="twitter:image" content="http://localhost:1313/images/article_picture/dataAnalytics.jpg" />
+        <meta
+          name="twitter:card"
+          content="summary_large_image" />
+      
+      
+      <meta property="og:image:width" content="3333" />
+      <meta property="og:image:height" content="2000" />
+    
+
+
+    
+    <meta
+      property="og:image:type"
+      content="image/.jpg" />
+  
+
+
+  
+
+
+
+
+
+<meta property="og:title" content="data_Analytics test content for jody tsaodata_Analytics test content for jody tsao" />
+<meta property="og:description" content="123" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/blog/data_analytic/" />
+
+
+<meta name="twitter:title" content="data_Analytics test content for jody tsaodata_Analytics test content for jody tsao" />
+<meta name="twitter:description" content="123" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  let indexURL = "http://localhost:1313/searchindex.json";
+  let includeSectionsInSearch = ["blog"];
+  let search_no_results = "No results for";
+  let search_initial_message = "Type something to search..";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
+<link rel="preconnect" href="//cdnjs.cloudflare.com" />
+<link rel="preconnect" href="//www.googletagmanager.com" />
+<link rel="preconnect" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://use.fontawesome.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//connect.facebook.net" />
+<link rel="dns-prefetch" href="//platform.linkedin.com" />
+<link rel="dns-prefetch" href="//platform.twitter.com" />
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script>
+  (function () {
+    const googleFont = document.createElement("link");
+    googleFont.href = "https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Signika:wght@500;700&display=swap";
+    googleFont.type = "text/css";
+    googleFont.rel = "stylesheet";
+    document.head.appendChild(googleFont);
+  })();
+</script>
+
+
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<link
+  href="/css/style.css"
+  integrity=""
+  rel="stylesheet" />
+
+
+<link
+  defer
+  async
+  rel="stylesheet"
+  href="/css/style-lazy.css"
+  integrity=""
+  media="print"
+  onload="this.media='all'; this.onload=null;" />
+
+
+  </head>
+
+  <body>
+    
+    
+      
+
+
+
+
+
+      
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
+
+    
+
+
+    
+    
+
+
+
+
+
+    
+    <header
+  class="header sticky top-0 z-30">
+  <nav class="navbar container">
+    
+    <div class="order-0">
+      
+      <a class="navbar-brand block" href="/">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+      
+      
+
+
+      
+      
+        
+        
+        
+        
+
+        
+        
+        
+      
+      
+    
+  
+  
+
+  
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img logo-light"
+      width="160"
+      height="32"
+      src="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_q80_h2_lanczos_3.webp"
+      alt="中興大學行銷學系"
+      onerror="this.onerror=null;this.src='\/images\/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_lanczos_3.png';" />
+
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img logo-dark"
+      width="160"
+      height="32"
+      src="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_q80_h2_lanczos_3.webp"
+      alt="中興大學行銷學系"
+      onerror="this.onerror=null;this.src='\/images\/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_lanczos_3.png';" />
+  
+  
+
+
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Menu Open</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Menu Close</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
+      
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/"
+              >首頁</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/authors/"
+              >關於我們</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              
+              href="/blog/"
+              >文章總覽</a
+            >
+          </li>
+        
+      
+        
+        
+        
+        
+          <li class="nav-item nav-dropdown group relative">
+            <span
+              class="nav-link 
+                
+                
+                
+              
+                
+                
+                
+               inline-flex items-center">
+              其他資訊
+              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                <path
+                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+            <ul
+              class="nav-dropdown-list lg:group-hover:visible lg:group-hover:opacity-100">
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/categories/">
+                    文章分類
+                  </a>
+                </li>
+              
+                
+                
+                <li class="nav-dropdown-item">
+                  <a
+                    class="nav-dropdown-link "
+                    
+                    href="/contact/">
+                    聯絡我們
+                  </a>
+                </li>
+              
+            </ul>
+          </li>
+        
+      
+      
+        <li class="mt-4 inline-block lg:hidden">
+          <a
+            class="btn btn-outline-primary btn-sm"
+            href="/contact">
+            聯絡我們
+          </a>
+        </li>
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+      
+        
+          <button
+            aria-label="search"
+            
+            class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary"
+            
+            data-target="search-modal">
+            <i class="fa-solid fa-search"></i>
+          </button>
+        
+      
+
+      
+
+
+
+
+
+
+
+
+
+      
+
+
+  <div class="theme-switcher mr-5">
+    <input id="theme-switcher" data-theme-switcher type="checkbox" />
+    <label for="theme-switcher">
+      <span class="sr-only">theme switcher</span>
+      <span>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-100 dark:opacity-0"
+          viewBox="0 0 56 56"
+          fill="#fff"
+          height="16"
+          width="16">
+          <path
+            d="M30 4.6c0-1-.9-2-2-2a2 2 0 0 0-2 2v5c0 1 .9 2 2 2s2-1 2-2Zm9.6 9a2 2 0 0 0 0 2.8c.8.8 2 .8 2.9 0L46 13a2 2 0 0 0 0-2.9 2 2 0 0 0-3 0Zm-26 2.8c.7.8 2 .8 2.8 0 .8-.7.8-2 0-2.9L13 10c-.7-.7-2-.8-2.9 0-.7.8-.7 2.1 0 3ZM28 16a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12Zm23.3 14c1.1 0 2-.9 2-2s-.9-2-2-2h-4.9a2 2 0 0 0-2 2c0 1.1 1 2 2 2ZM4.7 26a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4.9c1 0 2-.9 2-2s-1-2-2-2Zm37.8 13.6a2 2 0 0 0-3 0 2 2 0 0 0 0 2.9l3.6 3.5a2 2 0 0 0 2.9 0c.8-.8.8-2.1 0-3ZM10 43.1a2 2 0 0 0 0 2.9c.8.7 2.1.8 3 0l3.4-3.5c.8-.8.8-2.1 0-2.9-.8-.8-2-.8-2.9 0Zm20 3.4c0-1.1-.9-2-2-2a2 2 0 0 0-2 2v4.9c0 1 .9 2 2 2s2-1 2-2Z" />
+        </svg>
+        
+        <svg
+          class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 opacity-0 dark:opacity-100"
+          viewBox="0 0 24 24"
+          fill="none"
+          height="16"
+          width="16">
+          <path
+            fill="#000"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.2 2.2c1-.4 2 .6 1.6 1.5-1 3-.4 6.4 1.8 8.7a8.4 8.4 0 0 0 8.7 1.8c1-.3 2 .5 1.5 1.5v.1a10.3 10.3 0 0 1-9.4 6.2A10.3 10.3 0 0 1 3.2 6.7c1-2 2.9-3.5 4.9-4.4Z" />
+        </svg>
+      </span>
+    </label>
+  </div>
+
+  
+  <script>
+    var darkMode = false;
+
+    
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches){darkMode = true}
+    
+
+    if (localStorage.getItem("theme") === "dark"){darkMode = true}
+    else if (localStorage.getItem("theme") === "light"){darkMode = false}
+    if (darkMode){document.documentElement.classList.toggle("dark")}
+    var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+
+    document.addEventListener("DOMContentLoaded", () => {
+      [].forEach.call(themeSwitch, function (ts) {
+        ts.checked = darkMode ? true : false;
+        ts.addEventListener("click", () => {
+          document.documentElement.classList.toggle("dark");
+          localStorage.setItem(
+            "theme",
+            document.documentElement.classList.contains("dark") ? "dark" : "light"
+          );
+        });
+      });
+    });
+  </script>
+
+
+
+
+      
+      
+        <a
+          href="/contact"
+          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
+          聯絡我們
+        </a>
+      
+    </div>
+  </nav>
+</header>
+
+    
+
+
+
+
+  
+    <div
+      class="search-modal "
+      aria-hidden="true"
+      style="--color-primary: #121212">
+      <div data-target="close-search-modal" class="search-modal-overlay"></div>
+      <div
+        class="search-wrapper"
+        data-image="true"
+        data-description="true"
+        data-tags="true"
+        data-categories="true">
+        <div class="search-wrapper-header">
+          <label for="search-modal-input" style="margin-top:-1px">
+            <span class="sr-only">search icon</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-icon"
+              data-type="search">
+              <path
+                fill="currentColor"
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              height="18"
+              width="18"
+              class="search-reset"
+              data-type="reset">
+              <path
+                fill="currentColor"
+                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
+            </svg>
+          </label>
+          <input
+            id="search-modal-input"
+            type="text"
+            data-search-input
+            autocomplete="off"
+            aria-label="Search"
+            placeholder="Search Post..." />
+        </div>
+        <div class="search-wrapper-body">
+          <div class="search-result" data-search-result></div>
+          <span class="search-result-empty">
+            Type something to search..
+          </span>
+        </div>
+        <div class="search-wrapper-footer">
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z" />
+              </svg>
+            </kbd>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                fill="currentColor"
+                style="margin-top:1px;"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+              </svg>
+            </kbd>
+            to navigate
+          </span>
+          <span>
+            <kbd>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                style="display:inline-block;"
+                viewBox="0 0 16 16">
+                <path
+                  fill-rule="evenodd"
+                  d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z" />
+              </svg>
+            </kbd>
+            to select
+          </span>
+          <span class="search-result-info"></span>
+          <span data-target="close-search-modal">
+            <kbd>ESC</kbd> to close
+          </span>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+    <main>
+      
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+          
+          
+            <div class="mb-10">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/article_picture/dataAnalytics_hu35ae40f38d8776436120ec1451caf120_626063_545x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/article_picture/dataAnalytics_hu35ae40f38d8776436120ec1451caf120_626063_600x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/article_picture/dataAnalytics_hu35ae40f38d8776436120ec1451caf120_626063_700x0_resize_q80_h2_lanczos.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/article_picture/dataAnalytics_hu35ae40f38d8776436120ec1451caf120_626063_1110x0_resize_q80_h2_lanczos.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/article_picture/dataAnalytics_hu35ae40f38d8776436120ec1451caf120_626063_1110x0_resize_q80_lanczos.jpg"
+            class=" w-full rounded img"
+            alt="data_Analytics"
+            width="3333"
+            height="2000" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+            </div>
+          
+          <h1 class="h2 mb-4">
+            data_Analytics
+          </h1>
+          <ul class="mb-4">
+            <li class="mr-4 inline-block">
+              <a
+                href="/authors/%E5%A7%9A%E6%85%95%E6%9D%B1/">
+                <i class="fa-regular fa-circle-user mr-2"></i
+                >姚慕東
+              </a>
+            </li>
+            
+            
+              <li class="mr-4 inline-block">
+                <i class="fa-regular fa-folder mr-2"></i>
+                
+                  <a
+                    href="/categories/application/"
+                    class=""
+                    >Application
+                      ,
+                    
+                  </a>
+                
+                  <a
+                    href="/categories/dataanalytics/"
+                    class=""
+                    >Data analytics
+                  </a>
+                
+              </li>
+            
+            <li class="mr-4 inline-block">
+              <i class="fa-regular fa-clock mr-2"></i>
+              June 16, 2024
+            </li>
+          </ul>
+          <div class="content mb-10">
+            
+
+ 
+  
+
+<details open class="table-of-content blog">
+  <summary>
+    
+      Table of Contents
+    
+  </summary>
+  <nav id="TableOfContents">
+  <ol>
+    <li><a href="#第一段">第一段</a></li>
+    <li><a href="#第二段">第二段</a></li>
+  </ol>
+</nav>
+</details>
+
+            <p>巨量資料分析: 巨量資料分析是指用來從不同的大量高速資料集收集、處理和取得深入解析的方法、工具和應用程式
+<br>
+<br></p>
+<!-- 加這行 文章截錄才不會太長 -->
+<h2 id="第一段">第一段</h2>
+<p>pnorm() 算常態分布的機率
+雖說bigData 但我們通常都只有partial data</p>
+<p>autoML 套件 取代 data analyst</p>
+<p>data:</p>
+<ol>
+<li>singal: patterns insight</li>
+<li>noise</li>
+</ol>
+<p>AI崛起原因</p>
+<ol>
+<li>Advanced of learning algorithms 演算法的進步</li>
+<li>exponential growth of data(Big data)</li>
+<li>cheaper computation</li>
+</ol>
+<p>deep learning 向下走
+原因:不太能推論出因果關係</p>
+<p>smart apps:會蒐集使用者資料 回傳server 調整模型 提供更好的服務</p>
+<hr>
+<h2 id="第二段">第二段</h2>
+<p>big data 從哪來?</p>
+<ol>
+<li>traditional data(tabular data) :類似關聯式資料庫內的資料</li>
+</ol>
+<p><img src="https://i.imgur.com/oTQyaTu.png"></p>
+<p>(1) continuous data:連續型資料 e.g.收入
+(2) categorical data:間段型資料 e.g.男女</p>
+<ol start="2">
+<li>image data: 圖資料</li>
+<li>voice data:</li>
+<li>text data</li>
+<li>network data: 比較大的graph
 例 social network
 可以用adjacency matrix 表示(研究所考試考過)
-<img src=https://i.imgur.com/gmWuIOd.png>
-<img src=https://i.imgur.com/h854LWJ.png>
-<img src=https://i.imgur.com/ToL52o4.png></li></ol><p>資料的結構
+<img src="https://i.imgur.com/gmWuIOd.png">
+<img src="https://i.imgur.com/h854LWJ.png">
+<img src="https://i.imgur.com/ToL52o4.png"></li>
+</ol>
+<p>資料的結構
 結構化
 半結構化(key-value):json xml
-非結構化:聲音 圖片 email etc.</p><p><img src=https://i.imgur.com/XFaxxse.png>
+非結構化:聲音 圖片 email etc.</p>
+<p><img src="https://i.imgur.com/XFaxxse.png">
 descriptive: pie chart 之類的
 diagnostic: 假設檢定 因果關係
 predictive: 迴歸
-prescriptive: 最佳化決定</p><p><img src=https://i.imgur.com/H1R8OAd.png>
-<img src=https://i.imgur.com/h2t3xjH.png></p><p>ml model: 探討變數關係
-simulation model: 定義不同物件 然後跑模擬</p><p>apply()</p><p>lapply(): lapply 的 l 代表 list，也就是透過 lapply 函數操作完之後，會回傳一個 list</p><p>sapply(): sapply 的 s 代表 simple，意思是透過函數 sapply 回傳的結果是將 list 形式簡單化 (simplified) 後的 vector</p><p>mapply(): mapply 的 m 指的則是 multivariate，意思是可以同時使用多個變數</p><p>sd(): 標準差</p><p>datapipeline 資料科學家的工作
-<img src=https://i.imgur.com/jnr0aDl.png></p><p>particle sworm optimization :algo 的一種 可以上netlogo web試用</p><p>想想看: 為甚麼鴿子不會撞在一起?</p><hr><p>&lsquo;&lsquo;用來框vector
-&ldquo;&ldquo;用來框string</p><p><img src=https://i.imgur.com/cmyocsw.png>
-預測要先夠準 再去interpretation</p><p><img src=https://i.imgur.com/M8sz0qb.png>
+prescriptive: 最佳化決定</p>
+<p><img src="https://i.imgur.com/H1R8OAd.png">
+<img src="https://i.imgur.com/h2t3xjH.png"></p>
+<p>ml model: 探討變數關係
+simulation model: 定義不同物件 然後跑模擬</p>
+<p>apply()</p>
+<p>lapply(): lapply 的 l 代表 list，也就是透過 lapply 函數操作完之後，會回傳一個 list</p>
+<p>sapply(): sapply 的 s 代表 simple，意思是透過函數 sapply 回傳的結果是將 list 形式簡單化 (simplified) 後的 vector</p>
+<p>mapply(): mapply 的 m 指的則是 multivariate，意思是可以同時使用多個變數</p>
+<p>sd(): 標準差</p>
+<p>datapipeline 資料科學家的工作
+<img src="https://i.imgur.com/jnr0aDl.png"></p>
+<p>particle sworm optimization :algo 的一種 可以上netlogo web試用</p>
+<p>想想看: 為甚麼鴿子不會撞在一起?</p>
+<hr>
+<p>&lsquo;&lsquo;用來框vector
+&ldquo;&ldquo;用來框string</p>
+<p><img src="https://i.imgur.com/cmyocsw.png">
+預測要先夠準 再去interpretation</p>
+<p><img src="https://i.imgur.com/M8sz0qb.png">
 R的資料集: mtcars
 R:
 lm() linear model :
-<img src=https://i.imgur.com/6joXfWb.png></p><p>learner:要學的東西
+<img src="https://i.imgur.com/6joXfWb.png"></p>
+<p>learner:要學的東西
 model:做出來的東西
-<img src=https://i.imgur.com/GJBtJmP.png></p><p>lime interpreter
-<img src=https://i.imgur.com/TrcHqSM.png></p><p>multi-modal learning 多模態
+<img src="https://i.imgur.com/GJBtJmP.png"></p>
+<p>lime interpreter
+<img src="https://i.imgur.com/TrcHqSM.png"></p>
+<p>multi-modal learning 多模態
 (學習用人的想法去學習):
-把不同類型的資料混合使用</p><p><img src=https://i.imgur.com/LrilcCY.png></p><p><img src=https://i.imgur.com/VZMIfWh.png></p><p>shortcut learning 從我們非預期的地方學到如何判斷結果</p><p>e.g.有尺就是皮膚癌
-<img src=https://i.imgur.com/5LjwNsD.png></p><p><img src=https://i.imgur.com/lrhg7lP.png></p><p>correlation alone doesnt imply causation</p><p>confounder 干擾因子
-<img src=https://i.imgur.com/AhDi3IZ.png></p><p><img src=https://i.imgur.com/FDJBR67.png></p><p>randomized controlled trial = AB test
-<img src=https://i.imgur.com/fL1W7Kj.png></p><p><img src=https://i.imgur.com/AHbgDPB.png></p><p>simpson paradox
-survivor bias</p><p>federate learning 只訓練模型丟到雲端 不需要一些較隱私的data</p><p><a href=https://r3dmaotech.blogspot.com/2016/09/r-data-frame-merge-join.html target=_blank>r sql語法</a></p><p><img src=https://i.imgur.com/9sIuI6J.png></p><hr><p>multi-label learning 多標籤學習
+把不同類型的資料混合使用</p>
+<p><img src="https://i.imgur.com/LrilcCY.png"></p>
+<p><img src="https://i.imgur.com/VZMIfWh.png"></p>
+<p>shortcut learning 從我們非預期的地方學到如何判斷結果</p>
+<p>e.g.有尺就是皮膚癌
+<img src="https://i.imgur.com/5LjwNsD.png"></p>
+<p><img src="https://i.imgur.com/lrhg7lP.png"></p>
+<p>correlation alone doesnt imply causation</p>
+<p>confounder 干擾因子
+<img src="https://i.imgur.com/AhDi3IZ.png"></p>
+<p><img src="https://i.imgur.com/FDJBR67.png"></p>
+<p>randomized controlled trial  = AB test
+<img src="https://i.imgur.com/fL1W7Kj.png"></p>
+<p><img src="https://i.imgur.com/AHbgDPB.png"></p>
+<p>simpson paradox
+survivor bias</p>
+<p>federate learning 只訓練模型丟到雲端 不需要一些較隱私的data</p>
+<p><a href="https://r3dmaotech.blogspot.com/2016/09/r-data-frame-merge-join.html"
+
+
+
+
+ target="_blank"
+ 
+
+
+>r sql語法</a>
+</p>
+<p><img src="https://i.imgur.com/9sIuI6J.png"></p>
+<hr>
+<p>multi-label learning 多標籤學習
 同一種東西可能屬於很多類型
 e.g.一部電影 可能同時是恐怖電影與愛情電影
-<img src=https://i.imgur.com/1rsD9L8.png></p><p>multi-tasking 不同domain (e.g.年齡 教育程度)
+<img src="https://i.imgur.com/1rsD9L8.png"></p>
+<p>multi-tasking 不同domain (e.g.年齡 教育程度)
 multi-label 同domain
 binary class 一種東西只會有兩種分類 是貓還是狗
-multi class 一種東西可能是a b c</p><p>模型可以</p><ol><li>預測 prediction</li><li>解釋變數間關係 interpretation</li><li>最佳化 optimization</li></ol><p><img src=https://i.imgur.com/JA2NhOU.png></p><p>horizontal join: 以第一column做合併
+multi class 一種東西可能是a b c</p>
+<p>模型可以</p>
+<ol>
+<li>預測 prediction</li>
+<li>解釋變數間關係 interpretation</li>
+<li>最佳化 optimization</li>
+</ol>
+<p><img src="https://i.imgur.com/JA2NhOU.png"></p>
+<p>horizontal join: 以第一column做合併
 vertical join:以第一row做合併
-vertical join操作:</p><ol><li>union</li><li>diff</li><li>intersection
-<img src=https://i.imgur.com/MP4ys8r.png></li></ol><p>r的最小單位是vector 不是scalar</p><p>因變數取在~符號的左邊，右邊由解釋變數組成。下面是一個示例公式，可以說明~符號的使用。
+vertical join操作:</p>
+<ol>
+<li>union</li>
+<li>diff</li>
+<li>intersection
+<img src="https://i.imgur.com/MP4ys8r.png"></li>
+</ol>
+<p>r的最小單位是vector 不是scalar</p>
+<p>因變數取在~符號的左邊，右邊由解釋變數組成。下面是一個示例公式，可以說明~符號的使用。
 s &lt;- lhs ~ rhs
 s
-lhs ~ rhs</p><p><img src=https://i.imgur.com/huUjboz.png>
+lhs ~ rhs</p>
+<p><img src="https://i.imgur.com/huUjboz.png">
 I() identity 建立一個變數
-e.g. I(a+b) 建立一個變數=a+b</p><p>i.i.d idependent identical distribution</p><p>o.o.d out of distribution</p><p>data granularity 資料顆粒度
-continuous &ndash;>categorize&ndash;>category
-<img src=https://i.imgur.com/C5Wo6eQ.png></p><hr><hr><p><img src=https://i.imgur.com/XR5Hftp.png></p><hr><p>data reduction 資料縮減分類:</p><ol><li>dimensionality reduction 維度縮減
+e.g. I(a+b) 建立一個變數=a+b</p>
+<p>i.i.d idependent identical distribution</p>
+<p>o.o.d out of distribution</p>
+<p>data granularity 資料顆粒度
+continuous &ndash;&gt;categorize&ndash;&gt;category
+<img src="https://i.imgur.com/C5Wo6eQ.png"></p>
+<hr>
+<hr>
+<p><img src="https://i.imgur.com/XR5Hftp.png"></p>
+<hr>
+<p>data reduction 資料縮減分類:</p>
+<ol>
+<li>dimensionality reduction 維度縮減
 國英數自
-國英->語文
-數自->數理</li><li>numerousity reduction:把數字做離散</li></ol><p><img src=https://i.imgur.com/leCH2qm.png></p><p><img src=https://i.imgur.com/A6KqZAT.png></p><hr><p><img src=https://i.imgur.com/qt9xTMD.png>
-<img src=https://i.imgur.com/e7VJ3a0.png>
+國英-&gt;語文
+數自-&gt;數理</li>
+<li>numerousity reduction:把數字做離散</li>
+</ol>
+<p><img src="https://i.imgur.com/leCH2qm.png"></p>
+<p><img src="https://i.imgur.com/A6KqZAT.png"></p>
+<hr>
+<p><img src="https://i.imgur.com/qt9xTMD.png">
+<img src="https://i.imgur.com/e7VJ3a0.png">
 R資料結構:
 scalar
 vector
 matrix
-tensor</p><p>data augmentation:
+tensor</p>
+<p>data augmentation:
 problem:如果用linear model可能造成collinearity
-sol:用tree之類的方法就不會collinearity了</p><p>data modeling
-algorithm modeling</p><p>建模型的用處:</p><ol><li>prediction (accurarcy 要夠準)</li><li>intepretation(合不合理 算命仙)</li><li>optimization</li></ol><hr><p><strong>There is no neccesary connection between model acuuracy and model interpretability/complexity</strong></p><hr><p>Rashomon sets (羅生門集):
-不同算法都得出相同結果 accuracy也相近->選最好解釋的(parsiomous model)</p><p>parsiomous model:
-參數不多也好解釋的</p><p>rule learning
-<img src=https://i.imgur.com/QvMt3G0.png></p><p>解釋器-幫模型標出來模型是怎麼判斷的</p><p>OOD-out of distribution</p><p>understanding data 步驟:</p><ol><li>Univariate analysis</li><li>Bivariate analysis</li><li>Multivariate analysis</li></ol><p>zero variant = near zero variant:變數沒有變異</p><hr><p><strong>Univariate Analysis</strong></p><p>how to handle missing value?</p><ol><li>complete cases 缺的就刪掉</li><li>data imputation 算linear model 然後推算</li></ol><p>continuous data補值: 可以用missing indicator 補0/1 告訴模型是不是捕來的
-<img src=https://i.imgur.com/MSmuUSe.png></p><p>categorical data補值:</p><ol><li>merge</li><li>new level</li></ol><p>feature selection 選適合的變數放進模型</p><hr><p><strong>bivariate anaysis</strong></p><p>two sample T-test:拿來算兩種不同類型的變數 x1 x2
-e.g. cont. v.s cat.</p><p>一個categorical:one way ANOVA
+sol:用tree之類的方法就不會collinearity了</p>
+<p>data modeling
+algorithm modeling</p>
+<p>建模型的用處:</p>
+<ol>
+<li>prediction (accurarcy 要夠準)</li>
+<li>intepretation(合不合理 算命仙)</li>
+<li>optimization</li>
+</ol>
+<hr>
+<p><strong>There is no neccesary connection between model acuuracy and model interpretability/complexity</strong></p>
+<hr>
+<p>Rashomon sets (羅生門集):
+不同算法都得出相同結果 accuracy也相近-&gt;選最好解釋的(parsiomous model)</p>
+<p>parsiomous model:
+參數不多也好解釋的</p>
+<p>rule learning
+<img src="https://i.imgur.com/QvMt3G0.png"></p>
+<p>解釋器-幫模型標出來模型是怎麼判斷的</p>
+<p>OOD-out of distribution</p>
+<p>understanding data 步驟:</p>
+<ol>
+<li>Univariate analysis</li>
+<li>Bivariate analysis</li>
+<li>Multivariate analysis</li>
+</ol>
+<p>zero variant = near zero variant:變數沒有變異</p>
+<hr>
+<p><strong>Univariate Analysis</strong></p>
+<p>how to handle missing value?</p>
+<ol>
+<li>complete cases 缺的就刪掉</li>
+<li>data imputation 算linear model 然後推算</li>
+</ol>
+<p>continuous data補值: 可以用missing indicator 補0/1 告訴模型是不是捕來的
+<img src="https://i.imgur.com/MSmuUSe.png"></p>
+<p>categorical data補值:</p>
+<ol>
+<li>merge</li>
+<li>new level</li>
+</ol>
+<p>feature selection 選適合的變數放進模型</p>
+<hr>
+<p><strong>bivariate  anaysis</strong></p>
+<p>two sample T-test:拿來算兩種不同類型的變數 x1 x2
+e.g. cont. v.s cat.</p>
+<p>一個categorical:one way ANOVA
 兩個categorical:two way ANOVA
-chi-square:檢定兩個categorical 男女 學歷</p><hr><p>今天剛好在查詢各種檢定運用的情境，就稍微在這裡整理一下：
+chi-square:檢定兩個categorical 男女 學歷</p>
+<hr>
+<p>今天剛好在查詢各種檢定運用的情境，就稍微在這裡整理一下：
 t test:
-主要是用在比較兩組之間“平均值”是否有差異（只能比較兩組）。</p><p>Two sample t-test：兩組之間彼此獨立，比如牛吃a牌飼料跟b牌飼料的產乳量有沒有不同。
-最多只能用a b 兩種類別，再多就不能用了</p><p>Paired Sample t-test：兩組之間相互關聯，比如一年前後相同一批學生的數學成績有無差別。</p><p>ANOVA:
+主要是用在比較兩組之間“平均值”是否有差異（只能比較兩組）。</p>
+<p>Two sample t-test：兩組之間彼此獨立，比如牛吃a牌飼料跟b牌飼料的產乳量有沒有不同。
+最多只能用a b 兩種類別，再多就不能用了</p>
+<p>Paired Sample t-test：兩組之間相互關聯，比如一年前後相同一批學生的數學成績有無差別。</p>
+<p>ANOVA:
 categorical(x) 對 continuous(y)
-與t-test做相同的事情，但是可同時比較多組。</p><p>One-way Anova：自變數只有一個，比如性別對於智力是否影響。</p><p>Two-way Anova：自變數有多個，比如性別與種族對於智力是否影響。</p><p>one sample t-test univariate
+與t-test做相同的事情，但是可同時比較多組。</p>
+<p>One-way Anova：自變數只有一個，比如性別對於智力是否影響。</p>
+<p>Two-way Anova：自變數有多個，比如性別與種族對於智力是否影響。</p>
+<p>one sample t-test univariate
 two sample t-test bivariate
-paired t-test bivariate</p><p><img src=https://i.imgur.com/JH1NZvM.png>
-statistical learning:</p><ol><li>general linear model: anova ancova SLR(simple linear regression)</li><li>generalized linear model:logistic regression poisson regression</li><li>ML CART Rule-learning DNN (KNN,SVM) bayesian network
-<img src=https://i.imgur.com/t0wsrY3.png></li></ol><hr><p>regular experssion (Regex)</p><p>score = 20+10 * hrs
+paired t-test bivariate</p>
+<p><img src="https://i.imgur.com/JH1NZvM.png">
+statistical learning:</p>
+<ol>
+<li>general linear model: anova ancova SLR(simple linear regression)</li>
+<li>generalized linear model:logistic regression poisson regression</li>
+<li>ML CART Rule-learning DNN (KNN,SVM) bayesian network
+<img src="https://i.imgur.com/t0wsrY3.png"></li>
+</ol>
+<hr>
+<p>regular experssion (Regex)</p>
+<p>score = 20+10 * hrs
 local interpretation解釋一筆資料如何作出決定:因為公式長這樣 20+10* hrs= score
-global intepretation解釋現象:讀越多書分數越高</p><hr><p>discrete:</p><p>轉成百分比->密度函數
+global intepretation解釋現象:讀越多書分數越高</p>
+<hr>
+<p>discrete:</p>
+<p>轉成百分比-&gt;密度函數
 prob=density
-舉例: head 3次 tail 7次 -> head 0.3 tail 0.7
-<img src=https://i.imgur.com/DYGFnfz.png></p><p>continuous:
+舉例: head 3次 tail 7次 -&gt; head 0.3 tail 0.7
+<img src="https://i.imgur.com/DYGFnfz.png"></p>
+<p>continuous:
 prob = density* range(範圍)
-<img src=https://i.imgur.com/5EdcX2l.png></p><hr><p>density func: 160cm-170cm
+<img src="https://i.imgur.com/5EdcX2l.png"></p>
+<hr>
+<p>density func: 160cm-170cm
 cumulative func: 150以下
-quantile func(inverse CDF):給一個機率 求點是多少</p><p><img src=https://i.imgur.com/nU3YiYU.png></p><p><img src=https://i.imgur.com/pMf3Cgr.png>
+quantile func(inverse CDF):給一個機率 求點是多少</p>
+<p><img src="https://i.imgur.com/nU3YiYU.png"></p>
+<p><img src="https://i.imgur.com/pMf3Cgr.png">
 d:密度函數
 p:累積密度函數 cumulative
 q:quantile
-pdf->continuous
-pmf->discrete</p><p>chi-square:
+pdf-&gt;continuous
+pmf-&gt;discrete</p>
+<p>chi-square:
 goodness of fit test
-檢驗兩個categorical</p><p>distance 有symmetric的特性
-e.g. 台北-高雄 = 高雄-台北</p><p>divergence 衡量分布的變異度哪個比較大
+檢驗兩個categorical</p>
+<p>distance 有symmetric的特性
+e.g. 台北-高雄 = 高雄-台北</p>
+<p>divergence 衡量分布的變異度哪個比較大
 e.g. d(a,b) != d(b,a)
-<img src=https://i.imgur.com/BoKiOPy.png></p><p>KL divergent:衡量系統是否開始不穩定
-<img src=https://i.imgur.com/1JdaWFq.png></p><p>Shapiro-Wilk 常態性檢定: 檢定連續型樣本是否屬於常態分配
+<img src="https://i.imgur.com/BoKiOPy.png"></p>
+<p>KL divergent:衡量系統是否開始不穩定
+<img src="https://i.imgur.com/1JdaWFq.png"></p>
+<p>Shapiro-Wilk 常態性檢定: 檢定連續型樣本是否屬於常態分配
 Kolmogorov-Smirnov 常態性檢定:檢定連續型樣本是否屬於常態分配
 K-W test: 用中位數檢定樣本
-<img src=https://i.imgur.com/pOpxDZ7.png></p><p>fisher-exact test:every cell in crosstab&lt;5
+<img src="https://i.imgur.com/pOpxDZ7.png"></p>
+<p>fisher-exact test:every cell in crosstab&lt;5
 可分析兩組類別categorical資料之間是否有顯著相關
 Chi-squared goodness of fit test:檢定 discrete的樣本是否屬於常態分配
 chi-square test of independence:
-<img src=https://i.imgur.com/ecGqGNY.png></p><hr><p>有母數:假設母體有一種分配
-無母數:假設母體沒有特定分配</p><p>現在做資料分析:</p><ol><li>quick and dirty:做資料先簡單處理，就丟進去跑，不要花一堆時間整理資料</li><li>incrementally</li><li>interatively</li></ol><p>accuracy 準確
-precision 精確</p><p>y proxy:可以當成y的其他變數(類似proxy variable)</p><p>model architecture design:
-good model要素:</p><ol><li>deep(nested):
+<img src="https://i.imgur.com/ecGqGNY.png"></p>
+<hr>
+<p>有母數:假設母體有一種分配
+無母數:假設母體沒有特定分配</p>
+<p>現在做資料分析:</p>
+<ol>
+<li>quick and dirty:做資料先簡單處理，就丟進去跑，不要花一堆時間整理資料</li>
+<li>incrementally</li>
+<li>interatively</li>
+</ol>
+<p>accuracy 準確
+precision 精確</p>
+<p>y proxy:可以當成y的其他變數(類似proxy variable)</p>
+<p>model architecture design:
+good model要素:</p>
+<ol>
+<li>deep(nested):
 (1)一個模型的output為另一個模型的input
 (2)越來越接近資料
 (3)prevent overfitting
-<img src=https://i.imgur.com/hbsma8x.png></li><li>diverse 從不同角度看</li><li>interpretable</li><li>generative</li><li>causal</li></ol><p>mutual information(in bit): how much info in x about y</p><p>data processing inequality(DPI): 資料經過轉換之後，Mututal information(越來越高)</p><p>相關係數:</p><ol><li>Pearson</li><li>Spearman</li><li>Kendall</li></ol><p>相關係數在現實生活效用不高:
+<img src="https://i.imgur.com/hbsma8x.png"></li>
+<li>diverse 從不同角度看</li>
+<li>interpretable</li>
+<li>generative</li>
+<li>causal</li>
+</ol>
+<p>mutual information(in bit): how much info in x about y</p>
+<p>data processing inequality(DPI): 資料經過轉換之後，Mututal information(越來越高)</p>
+<p>相關係數:</p>
+<ol>
+<li>Pearson</li>
+<li>Spearman</li>
+<li>Kendall</li>
+</ol>
+<p>相關係數在現實生活效用不高:
 例如curve 相關係數就趨近於0
-<img src=https://i.imgur.com/if9NKTA.png></p><p>KNN:</p><ol><li>lazy algo</li><li>類比學派</li><li>KNN for regression 從a 點附近兩個點平均後去推測a點</li><li>continuous要做feature rescaling 讓尺度要一樣 不然會有bias
-<img src=https://i.imgur.com/kTvlfAh.png></li></ol><p>continuous variable 為scale sensitive 所以要做rescaling
-rescaling 方法:</p><ol><li>標準化</li><li>min max standarization</li></ol><p>做rescaling 時都要做紀錄，看是怎麼轉換的
-<img src=https://i.imgur.com/VlvRSFa.png></p><p>traing-test splittng原則:
+<img src="https://i.imgur.com/if9NKTA.png"></p>
+<p>KNN:</p>
+<ol>
+<li>lazy algo</li>
+<li>類比學派</li>
+<li>KNN for regression 從a 點附近兩個點平均後去推測a點</li>
+<li>continuous要做feature rescaling 讓尺度要一樣 不然會有bias
+<img src="https://i.imgur.com/kTvlfAh.png"></li>
+</ol>
+<p>continuous variable 為scale sensitive 所以要做rescaling
+rescaling 方法:</p>
+<ol>
+<li>標準化</li>
+<li>min max standarization</li>
+</ol>
+<p>做rescaling 時都要做紀錄，看是怎麼轉換的
+<img src="https://i.imgur.com/VlvRSFa.png"></p>
+<p>traing-test splittng原則:
 model至少要能train起來，至少要能testing
 training set:train/select best fit model
 (選最適合的model)
-testing set:estimate model generalization</p><p>data preprocessing object:
-package: caret</p><p>類比學派:</p><ol><li>你就是相似的你->從目標去推測目標(物以類聚)</li><li>Euclidean distance</li><li>Manhattan distance
-lazy algo:推論階段才去建模</li></ol><hr><p>資料漂移 (Data drift) 指的是從訓練到服務之間的資料改變，也就是特徵的統計性質改變 (資料分佈 X 改變)，像是現在的房子越蓋越小。</p><p>概念漂移 (Concept drift) 指的則是世界改變使得 Ground Truth 改變，也就是標籤的統計性質改變 (映射 X → Y 改變)，像是炒房使得同樣大小的房子價格改變。</p><p>R-square:只是針對training set沒有針對testing set 所以盡量不要用</p><p>categorical rescaling: 要有encoding
-encoding方法:</p><ol><li>one-hot 非常佔記憶體(差)</li><li>dummy coding(差)</li><li>frequency encoding 用機率來記</li></ol><p>用numeric來記:embedding
+testing set:estimate model generalization</p>
+<p>data preprocessing object:
+package: caret</p>
+<p>類比學派:</p>
+<ol>
+<li>你就是相似的你-&gt;從目標去推測目標(物以類聚)</li>
+<li>Euclidean distance</li>
+<li>Manhattan distance
+lazy algo:推論階段才去建模</li>
+</ol>
+<hr>
+<p>資料漂移 (Data drift) 指的是從訓練到服務之間的資料改變，也就是特徵的統計性質改變 (資料分佈 X 改變)，像是現在的房子越蓋越小。</p>
+<p>概念漂移 (Concept drift) 指的則是世界改變使得 Ground Truth 改變，也就是標籤的統計性質改變 (映射 X → Y 改變)，像是炒房使得同樣大小的房子價格改變。</p>
+<p>R-square:只是針對training set沒有針對testing set 所以盡量不要用</p>
+<p>categorical rescaling: 要有encoding
+encoding方法:</p>
+<ol>
+<li>one-hot 非常佔記憶體(差)</li>
+<li>dummy coding(差)</li>
+<li>frequency encoding 用機率來記</li>
+</ol>
+<p>用numeric來記:embedding
 target encoding:將資料壓縮成你要的形式
-<img src=https://i.imgur.com/4uI3gbL.png></p><p><img src=https://i.imgur.com/k9pgUjY.png></p><p>categorical encoder:</p><ol><li>supervised</li><li>unsupervised (one hot)</li></ol><p>deep learning不一定只能用ANN做 也可以用tree之類的做 (但linear model不行)</p><p>資料轉換要包含 linear &非linear才是好的
-linear model (linearmodel)->還是lnear model</p><p><img src=https://i.imgur.com/Rwm6UHc.png></p><p>feature rescaling->針對continuous
-linear model 也是scale sensitive</p><p>基於規則的都有->scale sensitive
-非基於規則->沒有scale sensitive (e.g.tree xgboost)</p><p>indicator variable: 變數1就是有0就是沒有 (binary)</p><hr><p><img src=https://i.imgur.com/qqv90Sy.png></p><p>上圖跑出來的係數是負的:原因是因為data是成對(paired)的(同一人每5年做一次)，應該要每個人都畫一條regression 係數才是正的(符合邏輯)
-sol:跑paired t-test wilcox.test, 兩點做相減再跑回歸</p><p>資料跟資料有關係:
+<img src="https://i.imgur.com/4uI3gbL.png"></p>
+<p><img src="https://i.imgur.com/k9pgUjY.png"></p>
+<p>categorical encoder:</p>
+<ol>
+<li>supervised</li>
+<li>unsupervised (one hot)</li>
+</ol>
+<p>deep learning不一定只能用ANN做 也可以用tree之類的做 (但linear model不行)</p>
+<p>資料轉換要包含 linear &amp;非linear才是好的
+linear model (linearmodel)-&gt;還是lnear model</p>
+<p><img src="https://i.imgur.com/Rwm6UHc.png"></p>
+<p>feature rescaling-&gt;針對continuous
+linear model 也是scale sensitive</p>
+<p>基於規則的都有-&gt;scale sensitive
+非基於規則-&gt;沒有scale sensitive (e.g.tree xgboost)</p>
+<p>indicator variable: 變數1就是有0就是沒有 (binary)</p>
+<hr>
+<p><img src="https://i.imgur.com/qqv90Sy.png"></p>
+<p>上圖跑出來的係數是負的:原因是因為data是成對(paired)的(同一人每5年做一次)，應該要每個人都畫一條regression 係數才是正的(符合邏輯)
+sol:跑paired t-test wilcox.test, 兩點做相減再跑回歸</p>
+<p>資料跟資料有關係:
 統計: correlated
 ML: network
-<img src=https://i.imgur.com/qbuBBAL.png></p><p>成對資料可以用 mixed effect model 來衡量:
+<img src="https://i.imgur.com/qbuBBAL.png"></p>
+<p>成對資料可以用 mixed effect model 來衡量:
 mixed effect = fixed +random
 fixed effect: 隨著時間不會改變(如id對性別)
-random effect: 隨著時間會改變(如id對體重)</p><p>mixed effect model:</p><ol><li>mixed effect linear model</li><li>GEE 廣義估計方程</li><li>mixed effect neural net</li><li>mixed effect random forest</li></ol><hr><p>paper類型:</p><ol><li>tutorial-like (introducting):頁數很多 很像教科書的概念</li><li>survey(review): 2-column, &lt;15頁:介紹已經有的概念、讓已經在該領域做研究的人快速了解該領域的發展</li><li>viewpoint: 2-column, &lt;5頁 ,多是頂尖期刊才會有</li><li>regular: 2-column, 8-10(IEEE),(重視novelty)</li></ol><p>如何判斷paper值不值得看:</p><ol><li>只看跟自己研究有關係的</li><li>盡量不要看超過10年的paper</li><li>找不到paper的pdf可以用 scihub.se 把網址貼上去</li></ol><p>看paper順序:
-abstract-> conclusion-> intro
-deep learning三巨頭: bengio, lecun, geoffrey hinton</p><hr><hr><p>跟資料有關係，跟模型沒關係
-<img src=https://i.imgur.com/JHTY8xN.png>
+random effect: 隨著時間會改變(如id對體重)</p>
+<p>mixed effect model:</p>
+<ol>
+<li>mixed effect linear model</li>
+<li>GEE 廣義估計方程</li>
+<li>mixed effect neural net</li>
+<li>mixed effect random forest</li>
+</ol>
+<hr>
+<p>paper類型:</p>
+<ol>
+<li>tutorial-like (introducting):頁數很多 很像教科書的概念</li>
+<li>survey(review): 2-column, &lt;15頁:介紹已經有的概念、讓已經在該領域做研究的人快速了解該領域的發展</li>
+<li>viewpoint: 2-column, &lt;5頁 ,多是頂尖期刊才會有</li>
+<li>regular: 2-column, 8-10(IEEE),(重視novelty)</li>
+</ol>
+<p>如何判斷paper值不值得看:</p>
+<ol>
+<li>只看跟自己研究有關係的</li>
+<li>盡量不要看超過10年的paper</li>
+<li>找不到paper的pdf可以用 scihub.se 把網址貼上去</li>
+</ol>
+<p>看paper順序:
+abstract-&gt; conclusion-&gt; intro
+deep learning三巨頭: bengio, lecun, geoffrey hinton</p>
+<hr>
+<hr>
+<p>跟資料有關係，跟模型沒關係
+<img src="https://i.imgur.com/JHTY8xN.png">
 low noise low signal常發生情況: time series
-high signal low noise常發生情況:</p><ol><li>來自實驗室環境或是工廠</li><li>資料裡面就有直接寫出來了 e.g. 預測敗血症 結果病例裡面就有敗血症</li></ol><hr><p>如果同一人衡量超過2次(非成對、或是每人衡量次數不一樣e.g.過世、衡量的時間點或間隔不一樣)就不能用paired</p><p><img src=https://i.imgur.com/7N4RgFM.png></p><p>模型複雜度跟預測準度沒關係
-overfitting 就是誤把noise當成signal</p><p><img src=https://i.imgur.com/cKDtjyD.png></p><p>如果資料及不符合參數假設(e.g.常態分配) ->可以用Wilcoxon rank-sum test (WRS)</p><p><img src=https://i.imgur.com/FF19ihs.png></p><hr><p>Causal effect 可以用</p><ol><li>potential outcome framework</li><li>Rubin causal model</li></ol><hr><p>cross validation 可以用來驗證training vs testing</p><p><img src=https://i.imgur.com/vW0859M.png></p><p>extrapolation: 可以在DB裡面加constraints 來解決
-e.g.mpg~ weight ,mpg>0</p><p>Multi-tasking learning:可以用同樣的資料訓練不同類型模型，幫助加強模型準度
-e.g.預測人的年齡，可以先預測性別</p><p>PSO particle swarm optimization:
+high signal low noise常發生情況:</p>
+<ol>
+<li>來自實驗室環境或是工廠</li>
+<li>資料裡面就有直接寫出來了 e.g. 預測敗血症 結果病例裡面就有敗血症</li>
+</ol>
+<hr>
+<p>如果同一人衡量超過2次(非成對、或是每人衡量次數不一樣e.g.過世、衡量的時間點或間隔不一樣)就不能用paired</p>
+<p><img src="https://i.imgur.com/7N4RgFM.png"></p>
+<p>模型複雜度跟預測準度沒關係
+overfitting 就是誤把noise當成signal</p>
+<p><img src="https://i.imgur.com/cKDtjyD.png"></p>
+<p>如果資料及不符合參數假設(e.g.常態分配) -&gt;可以用Wilcoxon rank-sum test (WRS)</p>
+<p><img src="https://i.imgur.com/FF19ihs.png"></p>
+<hr>
+<p>Causal effect 可以用</p>
+<ol>
+<li>potential outcome framework</li>
+<li>Rubin causal model</li>
+</ol>
+<hr>
+<p>cross validation 可以用來驗證training vs testing</p>
+<p><img src="https://i.imgur.com/vW0859M.png"></p>
+<p>extrapolation: 可以在DB裡面加constraints 來解決
+e.g.mpg~ weight ,mpg&gt;0</p>
+<p>Multi-tasking learning:可以用同樣的資料訓練不同類型模型，幫助加強模型準度
+e.g.預測人的年齡，可以先預測性別</p>
+<p>PSO particle swarm optimization:
 可以用來找最佳化的配置
-<img src=https://i.imgur.com/bpS5DKM.png></p><p>k-fold Cross validation
+<img src="https://i.imgur.com/bpS5DKM.png"></p>
+<p>k-fold Cross validation
 隨機分成不同part
 k=10 會train 10 個model
 k=20 會train 20 個model
 文獻證明:
-10-20個fold較適合，至少要有5個fold</p><p><strong>Ensemble machine learning</strong> :is a kind of modeling technique that promotes deep and diverse models by using different learners and aggregating multiple models to predict the outcome.</p><hr><p>一般Linear model 通常不太會overfit
-除非signal比較複雜</p><p>cross validation 是可以協助挑選好的模型架構，比對overfit 或是underfit，不能直接提升精準度</p><p>用y proxy 去預測y noise低&amp;signal高-> 沒意義</p><p>time series:通常signal low noise也low</p><p><img src=https://i.imgur.com/VVfOxoh.png></p><p>如果validation error 跟testing error差很多，模型就有問題</p><p>concept drift 步驟</p><ol><li>detection</li><li>understanding</li><li>adaption
+10-20個fold較適合，至少要有5個fold</p>
+<p><strong>Ensemble machine learning</strong> :is a kind of modeling technique that promotes deep and diverse models by using different learners and aggregating multiple models to predict the outcome.</p>
+<hr>
+<p>一般Linear model 通常不太會overfit
+除非signal比較複雜</p>
+<p>cross validation 是可以協助挑選好的模型架構，比對overfit 或是underfit，不能直接提升精準度</p>
+<p>用y proxy 去預測y noise低&amp;signal高-&gt; 沒意義</p>
+<p>time series:通常signal low noise也low</p>
+<p><img src="https://i.imgur.com/VVfOxoh.png"></p>
+<p>如果validation error 跟testing error差很多，模型就有問題</p>
+<p>concept drift 步驟</p>
+<ol>
+<li>detection</li>
+<li>understanding</li>
+<li>adaption
 (1)model retrain
 (2)model parameter update
-(3)model redesign</li></ol><p>confirmatory data analysis:驗證性分析
+(3)model redesign</li>
+</ol>
+<p>confirmatory data analysis:驗證性分析
 確認x影響y的關係
 e.g.肺癌 = smoke +gender+age 如果把smoke拿掉非常不像話，所以要做confirmatory analysis，確定x影響y的關係
-smoke 叫做voi (variable of interest)</p><p>exploratory data analysis 探索性分析
-就是沒有voi 的confirmatory data analysis</p><hr><p><strong>feature selection:</strong>
+smoke 叫做voi (variable of interest)</p>
+<p>exploratory data analysis 探索性分析
+就是沒有voi 的confirmatory data analysis</p>
+<hr>
+<p><strong>feature selection:</strong>
 挑模型套件
 R: CARET
-Python: mltax</p><p>模型數量= 2^k-1個模型
-human(expert) in the loop ML:專家參與模型建立</p><p>Feature selection 分為:</p><p>backward selection:
+Python: mltax</p>
+<p>模型數量= 2^k-1個模型
+human(expert) in the loop ML:專家參與模型建立</p>
+<p>Feature selection 分為:</p>
+<p>backward selection:
 1.探索性分析比較適合
 2.一個一個刪 刪到error開始上升就停了
-3.</p><p>forward selection: (老師幾乎都用這個)
+3.</p>
+<p>forward selection: (老師幾乎都用這個)
 1.驗證性分析比較適合
 2.又稱為RFE recursive feature engineering
-3.又稱為 forced-in 一次只加一個變數進去，直到放變數進去error不會再下降</p><p><img src=https://i.imgur.com/f4agZSa.png></p><p>hybrid selection :
+3.又稱為 forced-in 一次只加一個變數進去，直到放變數進去error不會再下降</p>
+<p><img src="https://i.imgur.com/f4agZSa.png"></p>
+<p>hybrid selection :
 1.先用forward 再用 backward
 2.第一線人員常用
-3.可以結合forward backward 的優點</p><p>ranking of variable importance:
+3.可以結合forward backward 的優點</p>
+<p>ranking of variable importance:
 1.排出來哪個變數的重要性比較高
-2.最好跟domain expert討論</p><p>linear model排出來的常常是不準的，因為會有共線性的問題</p><p>lasso regression: 就是linear model 後面加一個penalty</p><p>logistic func 是把 regression 壓成機率介於0-1之間
-<img src=https://i.imgur.com/SAJDBmV.png></p><p>odds ratio 介於0-無限大
-odds ratio 只要大於1 就可以說有關係 小於一 比較沒關係</p><p><a href="https://www.youtube.com/watch?v=X8AoMD2eR8U" target=_blank>時間序列:</a>
+2.最好跟domain expert討論</p>
+<p>linear model排出來的常常是不準的，因為會有共線性的問題</p>
+<p>lasso regression: 就是linear model 後面加一個penalty</p>
+<p>logistic func 是把 regression 壓成機率介於0-1之間
+<img src="https://i.imgur.com/SAJDBmV.png"></p>
+<p>odds ratio 介於0-無限大
+odds ratio 只要大於1 就可以說有關係 小於一 比較沒關係</p>
+<p><a href="https://www.youtube.com/watch?v=X8AoMD2eR8U"
+
+
+
+
+ target="_blank"
+ 
+
+
+>時間序列:</a>
+
 類型:
 平穩型stationary
-<img src=https://i.imgur.com/zIGZqHB.png></p><p>無定向型 drifting
-<img src=https://i.imgur.com/7yKzr9c.png></p><p>趨勢型 trend
+<img src="https://i.imgur.com/zIGZqHB.png"></p>
+<p>無定向型 drifting
+<img src="https://i.imgur.com/7yKzr9c.png"></p>
+<p>趨勢型 trend
 季節型 seasonality
-<img src=https://i.imgur.com/wQwf7uA.png></p><p>外部影響型exogenous
-<img src=https://i.imgur.com/nxsT62i.png></p><p>特徵:
+<img src="https://i.imgur.com/wQwf7uA.png"></p>
+<p>外部影響型exogenous
+<img src="https://i.imgur.com/nxsT62i.png"></p>
+<p>特徵:
 滯後性lag
 週期性periodicity
-趨勢性trend</p><p>logistic regression 採用MLE來計算機率
-epiDisplay:用來產生公衛 商用報表(adjusted odds ratio比較表)</p><p><img src=https://i.imgur.com/qPvqNEG.png>
-對glm的coefficient直接取自然對數 就可以得到adjusted OR</p><p>class imbalance:
+趨勢性trend</p>
+<p>logistic regression 採用MLE來計算機率
+epiDisplay:用來產生公衛 商用報表(adjusted odds ratio比較表)</p>
+<p><img src="https://i.imgur.com/qPvqNEG.png">
+對glm的coefficient直接取自然對數 就可以得到adjusted OR</p>
+<p>class imbalance:
 定義:因為資料預測超級不平衡，導致accuracy超高，但實際上沒意義 e.g.預測x實際也錯x
-solution:</p><ol><li><p>opitmal cutoff: 調整thrshold但可能錯殺無辜(把想知道的東西刪掉)</p></li><li><p>resampling: 分為up-sampling&amp;down-sampling，分為小部分的資料，建模後再合併在一起
-<img src=https://i.imgur.com/3TeAwUt.png></p></li><li><p>model Architecture Redesign: one-class,cost-sensitive learning</p></li></ol><p><img src=https://i.imgur.com/FCh0T8G.png></p><p><img src=https://i.imgur.com/TOSfiRN.png></p><p>AUC介於0-1之間 越接近1，classifieer越好 實務上
-(>0.9)要覺得too good to be true
-(>0.7-0.9) 這個範圍還不錯</p><p>AUC 越往左上越好</p><p>讓roc auc平衡:用youden&rsquo;s J
-取得youden&rsquo;s J 算法->
-J= sensitivity+specificity-1</p><p>glm(x,data,family)
+solution:</p>
+<ol>
+<li>
+<p>opitmal cutoff: 調整thrshold但可能錯殺無辜(把想知道的東西刪掉)</p>
+</li>
+<li>
+<p>resampling: 分為up-sampling&amp;down-sampling，分為小部分的資料，建模後再合併在一起
+<img src="https://i.imgur.com/3TeAwUt.png"></p>
+</li>
+<li>
+<p>model Architecture Redesign: one-class,cost-sensitive learning</p>
+</li>
+</ol>
+<p><img src="https://i.imgur.com/FCh0T8G.png"></p>
+<p><img src="https://i.imgur.com/TOSfiRN.png"></p>
+<p>AUC介於0-1之間 越接近1，classifieer越好 實務上
+(&gt;0.9)要覺得too good to be true
+(&gt;0.7-0.9) 這個範圍還不錯</p>
+<p>AUC 越往左上越好</p>
+<p>讓roc auc平衡:用youden&rsquo;s J
+取得youden&rsquo;s J 算法-&gt;
+J= sensitivity+specificity-1</p>
+<p>glm(x,data,family)
 如果要產出logistic regression family = binomial
-e.g. gl,(default~balance,data=Default, family = &lsquo;binomial&rsquo;)</p><p>epiDisplay 套件可以把logistic regression 產出一個表
-<img src=https://i.imgur.com/RP0Of4N.png></p><p><img src=https://i.imgur.com/EkfS7V1.png>
-<img src=https://i.imgur.com/ajlfi3D.png></p><p>threshold 上升 sensitivity 下降 Speficity下降
-<img src=https://i.imgur.com/fmbM5e7.png></p><p><img src=https://i.imgur.com/ECSdeah.png></p><p>trees spliting 代表把tree分支成很多部分
-tree的over-spliting = regression 的overfitting</p><p><img src=https://i.imgur.com/wGpXIXf.png>
+e.g. gl,(default~balance,data=Default, family = &lsquo;binomial&rsquo;)</p>
+<p>epiDisplay 套件可以把logistic regression 產出一個表
+<img src="https://i.imgur.com/RP0Of4N.png"></p>
+<p><img src="https://i.imgur.com/EkfS7V1.png">
+<img src="https://i.imgur.com/ajlfi3D.png"></p>
+<p>threshold 上升 sensitivity 下降 Speficity下降
+<img src="https://i.imgur.com/fmbM5e7.png"></p>
+<p><img src="https://i.imgur.com/ECSdeah.png"></p>
+<p>trees spliting 代表把tree分支成很多部分
+tree的over-spliting = regression 的overfitting</p>
+<p><img src="https://i.imgur.com/wGpXIXf.png">
 model-based tree:
-定義:先用tree把資料切開來，再用linear model等方法預測</p><p>越靠近root的變數越重要 因為是被優先挑出來的</p><p>CART 又叫做 recursive partitioning</p><p>tree pruning 限制tree的生長
-分為</p><ol><li>pre-prunning:限制切出來的區塊至少要有_%的數量才能畫出來</li><li>post-pruning:
+定義:先用tree把資料切開來，再用linear model等方法預測</p>
+<p>越靠近root的變數越重要 因為是被優先挑出來的</p>
+<p>CART 又叫做 recursive partitioning</p>
+<p>tree pruning 限制tree的生長
+分為</p>
+<ol>
+<li>pre-prunning:限制切出來的區塊至少要有_%的數量才能畫出來</li>
+<li>post-pruning:
 (1)cost-complexity
-(2)cost->MR 錯誤率</li></ol><p>decision stump:只有一個分支的tree</p><p>rpart 可以拿來算 tree剪枝要剪多少
-<img src=https://i.imgur.com/YYwEig1.png></p><p>tree 的
-優點:</p><ol><li>好解釋</li><li>跟尺度無關 不用編碼</li><li></li></ol><p>缺點:</p><ol><li>不準 因為都是用2分法然後取平均數預測</li><li>expressive power不好 因為現實生活中不是每個都if then的問題</li></ol><p>teacher student model 又稱為 knowledge distillation</p><p>Bootrapping:
+(2)cost-&gt;MR 錯誤率</li>
+</ol>
+<p>decision stump:只有一個分支的tree</p>
+<p>rpart 可以拿來算 tree剪枝要剪多少
+<img src="https://i.imgur.com/YYwEig1.png"></p>
+<p>tree 的
+優點:</p>
+<ol>
+<li>好解釋</li>
+<li>跟尺度無關 不用編碼</li>
+<li></li>
+</ol>
+<p>缺點:</p>
+<ol>
+<li>不準 因為都是用2分法然後取平均數預測</li>
+<li>expressive power不好 因為現實生活中不是每個都if then的問題</li>
+</ol>
+<p>teacher student model 又稱為 knowledge distillation</p>
+<p>Bootrapping:
 特點: row-sampling
-<img src=https://i.imgur.com/WIuc7d3.png></p><p>bootrap aggregation (bagging)
-流程:先切不同資料->建不同樹->得到不同y-head->再用3個y-head的平均數去預測
-<img src=https://i.imgur.com/0gp5Lsg.png>
-實務上:</p><ol><li>64-128個tree會比較準</li><li>r的套件預設randomforest的tree要長500棵</li><li>盡量先overfitting 先降低bias 再處理variance</li><li>把各個模型做平均 variance就會變小</li><li>OOB(out of bag) data:可以拿來當validation data</li><li>大部分都是有1/3做validation set
-<img src=https://i.imgur.com/JSsDa9b.png></li><li>bagging tree最大的缺點就是幾乎都長得很像，因為重要的變數不管在哪一棵樹幾乎都是一樣的。
-解決辦法:故意把重要變數遮住讓樹去長-> 也就是randomforest</li></ol><p>隨機森林:
-缺點:變準了，但也變得難解釋了</p><p><a href=https://hackmd.io/@nbswords/r1f8IAAnu target=_blank>連結</a>
-<img alt=image src=https://hackmd.io/_uploads/ryfflYqWC.png></p></div><div class="row items-start justify-between"><div class="lg:col-5 mb-10 flex items-center lg:mb-0"><h5 class=mr-3>Tags :</h5><ul><li class=inline-block><a class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white" href=/tags/application/>Application</a></li><li class=inline-block><a class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white" href=/tags/dataanalytics/>Data analytics</a></li></ul></div><div class="lg:col-4 flex items-center"><div class=share-icons><h5 class=share-title>Share :</h5><a class="share-link share-facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fo78908.github.io%2fblog%2fdata_analytic%2f" target=_blank rel=noopener aria-label="share facebook"><span class=share-icon><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
-</span></a><a class="share-link share-twitter" href="https://twitter.com/intent/tweet/?text=Share&amp;url=https%3a%2f%2fo78908.github.io%2fblog%2fdata_analytic%2f" target=_blank rel=noopener aria-label="share twitter"><span aria-hidden=true class=share-icon><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z"/></svg>
-</span></a><a class="share-link share-email" href="mailto:?subject=Share&amp;body=https%3a%2f%2fo78908.github.io%2fblog%2fdata_analytic%2f" target=_self rel=noopener aria-label="share email"><span aria-hidden=true class=share-icon><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9.0 6v12c0 1.1.9 2 2 2h20c1.1.0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17.0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1.0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08.0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
-</span></a><a class="share-link share-reddit" href="https://reddit.com/submit/?url=https%3a%2f%2fo78908.github.io%2fblog%2fdata_analytic%2f&amp;resubmit=true&amp;title=Share" target=_blank rel=noopener aria-label="share reddit"><span aria-hidden=true class=share-icon><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96.0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65.0 3-1.35 3-3s-1.35-3-3-3c-1.38.0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65.0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66.0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64.0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4.0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6.0.23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1.0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1.0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg></span></a></div></div></div><div class=mt-20><div id=disqus_thread></div><script>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//themefisher-template.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></article></div><div class="section pb-0"><h2 class="h3 mb-12">Related Posts</h2><div class=row><div class="lg:col-4 md:col-6 mb-14"><div class="bg-body dark:bg-darkmode-body"><h4 class=mb-3><a href=/blog/pdf_file/>pdf_file</a></h4><ul class=mb-4><li class="mr-4 inline-block"><a href=/authors/%E5%A7%9A%E6%85%95%E6%9D%B1/><i class="fa-regular fa-circle-user mr-2"></i>姚慕東</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
-<a href=/categories/application/ class=ms-1>Application
-,
-</a><a href=/categories/dataanalytics/ class=ms-1>Data analytics</a></li></ul><p class=mb-6>20240617 for 曹老師 測試pdf 123123123123
-This browser does not support PDFs.</p><a class="btn btn-outline-primary btn-sm" href=/blog/pdf_file/>Read More</a></div></div><div class="lg:col-4 md:col-6 mb-14"><div class="bg-body dark:bg-darkmode-body"><picture><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q80_h2_lanczos_3.webp media="(max-width: 575px)"><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q80_h2_lanczos_3.webp media="(max-width: 767px)"><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q80_h2_lanczos_3.webp media="(max-width: 991px)"><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q80_h2_lanczos_3.webp><img loading=lazy decoding=async src=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png class="mb-6 w-full rounded img" alt="How to build an Application with modern Technology" width=1096 height=480></picture><h4 class=mb-3><a href=/blog/post-4/>How to build an Application with modern Technology</a></h4><ul class=mb-4><li class="mr-4 inline-block"><a href=/authors/john-doe/><i class="fa-regular fa-circle-user mr-2"></i>John Doe</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
-<a href=/categories/architecture/ class=ms-1>Architecture</a></li></ul><p class=mb-6>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p><a class="btn btn-outline-primary btn-sm" href=/blog/post-4/>Read More</a></div></div><div class="lg:col-4 md:col-6 mb-14"><div class="bg-body dark:bg-darkmode-body"><picture><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q80_h2_lanczos_3.webp media="(max-width: 575px)"><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q80_h2_lanczos_3.webp media="(max-width: 767px)"><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q80_h2_lanczos_3.webp media="(max-width: 991px)"><source srcset=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q80_h2_lanczos_3.webp><img loading=lazy decoding=async src=/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png class="mb-6 w-full rounded img" alt="How to build an Application with modern Technology" width=1096 height=480></picture><h4 class=mb-3><a href=/blog/post-3/>How to build an Application with modern Technology</a></h4><ul class=mb-4><li class="mr-4 inline-block"><a href=/authors/john-doe/><i class="fa-regular fa-circle-user mr-2"></i>John Doe</a></li><li class="mr-4 inline-block"><i class="fa-regular fa-folder mr-1"></i>
-<a href=/categories/software/ class=ms-1>Software</a></li></ul><p class=mb-6>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</p><a class="btn btn-outline-primary btn-sm" href=/blog/post-3/>Read More</a></div></div></div></div></div></section></main><footer class="bg-theme-light dark:bg-darkmode-theme-light"><div class=container><div class="row items-center py-10"><div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left"><a class="navbar-brand inline-block" href=/><img fetchpriority=high decoding=async class="img logo-light" width=160 height=32 src=/images/logo_hud3822dc52499c854acb9b180fed4f736_3648_320x0_resize_q80_h2_lanczos_3.webp alt=Hugoplate onerror='this.onerror=null,this.src="/images/logo_hud3822dc52499c854acb9b180fed4f736_3648_320x0_resize_lanczos_3.png"'>
-<img fetchpriority=high decoding=async class="img logo-dark" width=160 height=32 src=/images/logo-darkmode_hu95dd250582672ebe0c063cf60eed448f_3090_320x0_resize_q80_h2_lanczos_3.webp alt=Hugoplate onerror='this.onerror=null,this.src="/images/logo-darkmode_hu95dd250582672ebe0c063cf60eed448f_3090_320x0_resize_lanczos_3.png"'></a></div><div class="lg:col-6 mb-8 text-center lg:mb-0"><ul><li class="m-3 inline-block"><a href=/about/>About</a></li><li class="m-3 inline-block"><a href=/elements/>Elements</a></li><li class="m-3 inline-block"><a href=/privacy-policy/>Privacy Policy</a></li></ul></div><div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right"><ul class=social-icons><li><a target=_blank aria-label=facebook rel="nofollow noopener" href=https://www.facebook.com/><i class="fab fa-facebook"></i></a></li><li><a target=_blank aria-label=twitter rel="nofollow noopener" href=https://twitter.com/><i class="fab fa-twitter"></i></a></li><li><a target=_blank aria-label=github rel="nofollow noopener" href=https://www.github.com/><i class="fab fa-github"></i></a></li><li><a target=_blank aria-label=linkedin rel="nofollow noopener" href=https://www.linkedin.com/><i class="fab fa-linkedin"></i></a></li></ul></div></div></div><div class="border-border dark:border-darkmode-border border-t py-7"><div class="text-light dark:text-darkmode-light container text-center"><p>Designed & Developed by <a href=https://zeon.studio target=_blank>Zeon Studio</a></p></div></div></footer><script crossorigin=anonymous integrity="sha256-QyKANL8qsiU27xgAU9uCTVC7WUQCnRPb5SSdNFDofSY=" src=/js/script.min.43228034bf2ab22536ef180053db824d50bb5944029d13dbe5249d3450e87d26.js></script><script defer async crossorigin=anonymous integrity="sha256-w+aS42D2+B+Jix+joZ7pAua1vbu/pRK/IhoP55b8n3w=" src=/js/script-lazy.min.c3e692e360f6f81f898b1fa3a19ee902e6b5bdbbbfa512bf221a0fe796fc9f7c.js></script><script>"serviceWorker"in navigator&&navigator.serviceWorker.register("/service-worker.js")</script><script type=application/javascript>const announcementBox=document.getElementById("announcement"),announcementButton=document.getElementById("announcement-button");Cookies.get("announcement-close")||(announcementBox.classList.remove("announcement-hide"),announcementButton.onclick=function(){Cookies.set("announcement-close",!0,{expires:7}),announcementBox.classList.add("announcement-hide")})</script></body></html>
+<img src="https://i.imgur.com/WIuc7d3.png"></p>
+<p>bootrap aggregation (bagging)
+流程:先切不同資料-&gt;建不同樹-&gt;得到不同y-head-&gt;再用3個y-head的平均數去預測
+<img src="https://i.imgur.com/0gp5Lsg.png">
+實務上:</p>
+<ol>
+<li>64-128個tree會比較準</li>
+<li>r的套件預設randomforest的tree要長500棵</li>
+<li>盡量先overfitting 先降低bias 再處理variance</li>
+<li>把各個模型做平均 variance就會變小</li>
+<li>OOB(out of bag) data:可以拿來當validation data</li>
+<li>大部分都是有1/3做validation set
+<img src="https://i.imgur.com/JSsDa9b.png"></li>
+<li>bagging tree最大的缺點就是幾乎都長得很像，因為重要的變數不管在哪一棵樹幾乎都是一樣的。
+解決辦法:故意把重要變數遮住讓樹去長-&gt; 也就是randomforest</li>
+</ol>
+<p>隨機森林:
+缺點:變準了，但也變得難解釋了</p>
+<p><a href="https://hackmd.io/@nbswords/r1f8IAAnu"
+
+
+
+
+ target="_blank"
+ 
+
+
+>連結</a>
+
+<img alt="image" src="https://hackmd.io/_uploads/ryfflYqWC.png"></p>
+          </div>
+          <div class="row items-start justify-between">
+            
+            
+              <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
+                <h5 class="mr-3">Tags :</h5>
+                <ul>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/tags/application/">
+                        Application
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/tags/dataanalytics/">
+                        Data analytics
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/tags/2024/">
+                        2024th
+                      </a>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+            <div class="lg:col-4 flex items-center">
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="share-icons">
+  <h5 class="share-title">Share :</h5>
+
+
+  
+  
+    <a
+      class="share-link share-facebook"
+      href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2fdata_analytic%2f"
+      target="_blank"
+      rel="noopener"
+      aria-label="share facebook">
+      <span class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" />
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+    <a
+      class="share-link share-twitter"
+      href="https://twitter.com/intent/tweet/?text=Share&amp;url=http%3a%2f%2flocalhost%3a1313%2fblog%2fdata_analytic%2f"
+      target="_blank"
+      rel="noopener"
+      aria-label="share twitter">
+      <span aria-hidden="true" class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path 
+            d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z"/>
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+    <a
+      class="share-link share-email"
+      href="mailto:?subject=Share&amp;body=http%3a%2f%2flocalhost%3a1313%2fblog%2fdata_analytic%2f"
+      target="_self"
+      rel="noopener"
+      aria-label="share email">
+      <span aria-hidden="true" class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+    <a
+      class="share-link share-reddit"
+      href="https://reddit.com/submit/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2fdata_analytic%2f&amp;resubmit=true&amp;title=Share"
+      target="_blank"
+      rel="noopener"
+      aria-label="share reddit">
+      <span aria-hidden="true" class="share-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z" />
+        </svg>
+      </span>
+    </a>
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+</div>
+
+            </div>
+          </div>
+          
+          
+            <div class="mt-20">
+              <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "themefisher-template" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+          
+        </article>
+      </div>
+
+      
+      
+      
+      
+        <div class="section pb-0">
+          <h2 class="h3 mb-12">Related Posts</h2>
+          <div class="row">
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q80_h2_lanczos_3.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
+            class=" mb-6 w-full rounded img"
+            alt="How to build an Application with modern Technology"
+            width="1096"
+            height="480" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/blog/post-3/">
+      How to build an Application with modern Technology
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/authors/john-doe/">
+          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/categories/software/"
+            class="ms-1"
+            >Software
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/post-3/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q80_h2_lanczos_3.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
+            class=" mb-6 w-full rounded img"
+            alt="How to build an Application with modern Technology"
+            width="1096"
+            height="480" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/blog/post-4/">
+      How to build an Application with modern Technology
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/authors/john-doe/">
+          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/categories/architecture/"
+            class="ms-1"
+            >Architecture
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/post-4/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_545x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_600x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_700x0_resize_q80_h2_lanczos_3.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_q80_h2_lanczos_3.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/image-placeholder_huf5f2d24635a285cfc2259aa9741acb2a_4881_1110x0_resize_lanczos_3.png"
+            class=" mb-6 w-full rounded img"
+            alt="How to build an Application with modern Technology"
+            width="1096"
+            height="480" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/blog/post-1/">
+      How to build an Application with modern Technology
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/authors/john-doe/">
+          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/categories/application/"
+            class="ms-1"
+            >Application
+              ,
+            
+          </a>
+        
+          <a
+            href="/categories/data/"
+            class="ms-1"
+            >Data
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/post-1/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+          </div>
+        </div>
+      
+    </div>
+  </section>
+
+    </main>
+
+    
+    <footer class="bg-theme-light dark:bg-darkmode-theme-light">
+  <div class="container">
+    <div class="row items-center py-10">
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
+        
+        <a
+          class="navbar-brand inline-block"
+          href="/">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+  
+
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+      
+      
+
+
+      
+      
+        
+        
+        
+        
+
+        
+        
+        
+      
+      
+    
+  
+  
+
+  
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img logo-light"
+      width="160"
+      height="32"
+      src="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_q80_h2_lanczos_3.webp"
+      alt="中興大學行銷學系"
+      onerror="this.onerror=null;this.src='\/images\/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_lanczos_3.png';" />
+
+    <img
+      fetchpriority="high"
+      decoding="async"
+      class="img logo-dark"
+      width="160"
+      height="32"
+      src="/images/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_q80_h2_lanczos_3.webp"
+      alt="中興大學行銷學系"
+      onerror="this.onerror=null;this.src='\/images\/nchuMarketingLogo_hubc4b655ffcc57de279817d0f3b718223_30767_320x0_resize_lanczos_3.png';" />
+  
+  
+
+
+        </a>
+      </div>
+      <div class="lg:col-6 mb-8 text-center lg:mb-0">
+        <ul>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /authors/
+                "
+                >關於我們</a
+              >
+            </li>
+          
+            <li class="m-3 inline-block">
+              <a
+                
+                href="
+                  /privacy-policy/
+                "
+                >隱私權政策</a
+              >
+            </li>
+          
+        </ul>
+      </div>
+      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
+        <ul class="social-icons">
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="facebook"
+                rel="nofollow noopener"
+                href="https://www.facebook.com/">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="twitter"
+                rel="nofollow noopener"
+                href="https://twitter.com/">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="github"
+                rel="nofollow noopener"
+                href="https://www.github.com/">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                target="_blank"
+                aria-label="linkedin"
+                rel="nofollow noopener"
+                href="https://www.linkedin.com/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="border-border dark:border-darkmode-border border-t py-7">
+    <div class="text-light dark:text-darkmode-light container text-center">
+      <p>
+        Designed &amp; Developed by <a href="https://zeon.studio"
+
+
+
+
+ target="_blank"
+ 
+
+
+>Zeon Studio</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+    
+
+
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+  
+    
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script.js"></script>
+
+
+<script
+  defer
+  async
+  crossorigin="anonymous"
+  integrity=""
+  src="/js/script-lazy.js"></script>
+
+
+
+<script>
+  if ('serviceWorker' in navigator){navigator.serviceWorker.register("/service-worker.js");}
+</script>
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  </body>
+</html>
